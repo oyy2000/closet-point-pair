@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>坐标轴的绘制</title>
+</head>
+
+<body>
+
+	<link  href="最近点对2.css" rel="stylesheet" type="text/css">
+	<link href="最近点对.css" rel="stylesheet" type="text/css">
+	<style>
+		
+		body{
+			font-family: "comic sans ms";
+		}
+	</style>
+<div class="point" id="point1">&nbsp;&nbsp;&nbsp;(8,-10)</div>
+<div class="point" id="point2">&nbsp;&nbsp;&nbsp;(4,-5)</div>
+<div class="point" id="point3">&nbsp;&nbsp;&nbsp;(-11,0)</div>
+<div class="point" id="point4">&nbsp;&nbsp;&nbsp;(-9,-6)</div>
+<div class="point" id="point5">&nbsp;&nbsp;&nbsp;(-3,4)</div>
+<div class="point" id="point6">&nbsp;&nbsp;&nbsp;(-12,5)</div>
+<div class="point" id="point7">&nbsp;&nbsp;&nbsp;(2,4)</div>
+<div class="point" id="point8">&nbsp;&nbsp;&nbsp;(-6,11)</div>
+<div class="point" id="point9">&nbsp;&nbsp;&nbsp;(11,1)</div>
+<div class="point" id="point10">&nbsp;&nbsp;&nbsp;(14,9)</div>
+<div class="line" id ="line1" style="text-align: center;">d</div>
+<div class="line" id ="line2" style="text-align: center;">d2小于d</div>
+<div class="rec" id ="rec1">Right</div>
+<div class="rec" id ="rec2">Left</div>
+<div class="rec" id ="rec3"></div>
+
+<canvas id="canvas" width="800" height="600" style="position: relative;   left: 200px ;margin: 0; " ></canvas>
+	
+<script src="canvas.js" type="text/javascript"></script>
+<script src="点对.js" type="text/javascript"></script>
+
+<div class = "buttongroup"> 
+<button onclick="showpoint()">showpoint</button>
+<button onclick="showrec()">showrec</button>
+<button onclick="hidepoint()">hidepoint</button>
+<button onclick="showline()">showline</button>
+<button onclick="linemove()">linemove</button>
+<button onclick="linebigger()">linebigger</button>
+<button onclick="showline2()">showline2</button>
+<button onclick="showall()">all</button>
+</div>
+
+
+</body>
+</html>
